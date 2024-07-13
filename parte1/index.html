@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Truck Me</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -38,6 +39,41 @@
                 </p>
         </section>
 
+        <section class="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/parte1/assets/img/img1.jpg" class="d-block w-100" alt="Slide 1">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/parte1/assets/img/img2.jpg" class="d-block w-100" alt="Slide 2">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/parte1/assets/img/img3.jpg" class="d-block w-100" alt="Slide 3">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+
         <section class="servicos" id="servicos">
             <h1 class="titulo">Serviços</h1>
             <div class="card-container">
@@ -57,7 +93,7 @@
                         <h2>Transportadores</h2>
                         <p>Através do nosso Aplicativo para transportadores, divulgamos as 
                             melhores ofertas de cargas, sem intermediação, comissionamento ou taxas.</p>
-                        <br><br>
+                        <br>
                         <span>A partir de R$ 25,00</span>
                     </div>
                 </div>
@@ -84,9 +120,12 @@
         </section>
 
         <script src="/parte1/assets/js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </main>
 
-    <footer>
+    <footer class="footer">
         <!-- Conteúdo do rodapé -->
         <p>&copy; 2024 Truck Me. Todos os direitos reservados.</p>
     </footer>
