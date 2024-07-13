@@ -63,6 +63,32 @@
                 </div>
             </div>
         </section>
+
+        <section class="contato" id="contato">
+            <h2>Contato</h2>
+            <form action="submit_form.php" method="post" class="form">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <script src="/parte1/assets/js/index.js"></script>
     </main>
+
+    <footer>
+        <!-- Conteúdo do rodapé -->
+        <p>&copy; 2024 Truck Me. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
