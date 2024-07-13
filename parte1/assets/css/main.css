@@ -205,7 +205,7 @@ nav img{
 .contato{
     width: 100vw;
     height: 80vh;
-    background-color: rgb(245, 148, 112);
+    /* background-color: rgb(245, 148, 112); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,7 +236,7 @@ nav img{
     width: 80%;
     height: 5%;
     border-radius: 5px;
-    border: none;
+    border-color: #7cb9fb;
     background-color: rgba(255, 244, 240, 0.325);
 }
 
@@ -244,7 +244,7 @@ nav img{
     align-self: center;
     width: 80%;
     border-radius: 5px;
-    border: none;
+    border-color: #7cb9fb;
     background-color: rgba(255, 244, 240, 0.325);
 }
 
@@ -252,4 +252,8 @@ nav img{
     width: 20%;
     height: 10%;
     align-self: center;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(142, 142, 241);
 }
